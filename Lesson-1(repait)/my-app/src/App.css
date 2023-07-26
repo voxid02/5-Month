@@ -1,0 +1,23 @@
+.activeMenu{
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  background: gray;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+
+
+.hiidenMenu{
+  box-sizing: border-box;
+  position: absolute;
+  left: -100%;
+  top: 50px;
+  width: 100%;
+  background: gray;
+  padding: 20px;
+  transition: 0.3s;
+}
