@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   border: none;
+   outline: none;
+}
+
+.postCard {
+   width: 800px;
+   margin: 20px auto;
+   border-radius: 30px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   border: 1px solid black;
+   color: black;
+}
+
+.postCard button {
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   padding: 10px;
+}
